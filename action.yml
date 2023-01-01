@@ -1,15 +1,18 @@
-name: "OpenAI Code Analyzer"
-description: "OpenAI-based Code Analysis Library"
+name: "OpenAI Chat"
+description: "Uses OpenAI to reply to comments submitted"
 author: fukumone
 branding:
   icon: check-square
   color: green
 inputs:
-  openai-api-key:  # id of input
+  openai-api-key:
     description: 'Your openai api key'
     required: true
+  github-comment:
+    description: 'The comment that was posted on GitHub'
+    require: true
   github-token:
-    description: "Github token"
+    description: "GitHub access token with permissions to access the repository where the comment was posted"
     required: true
   model:
     description: 'The model to use'

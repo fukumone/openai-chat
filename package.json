@@ -1,8 +1,8 @@
 {
-  "name": "OpenAI Code Analyzer",
-  "version": "1.0.0",
+  "name": "OpenAI Chat",
+  "version": "0.0.1",
   "private": true,
-  "description": "OpenAI-based Code Analysis Library",
+  "description": "Uses OpenAI to reply to comments submitted",
   "author": "fukumone",
   "license": "MIT",
   "main": "dist/index.js",
