@@ -1,6 +1,6 @@
 {
   "name": "OpenAI Chat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "Uses OpenAI to reply to comments submitted",
   "author": "fukumone",

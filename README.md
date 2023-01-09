@@ -16,7 +16,7 @@ jobs:
     if: github.event_name == 'issue_comment' && startsWith(github.event.comment.body, '/openai ')
     steps:
       - name: OpenAI Chat
-        uses: fukumone/openai-chat@v0.0.1
+        uses: fukumone/openai-chat@v0.0.2
         with:
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
